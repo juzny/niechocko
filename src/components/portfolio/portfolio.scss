@@ -1,0 +1,44 @@
+@import "../../global.scss";
+
+.portfolio {
+  &__content {
+    overflow: hidden;
+
+    .title {
+      font-size: 4rem;
+      width: 100%;
+      padding: 2rem 6rem;
+      position: relative;
+
+      @media (min-width: 768px) {
+        font-size: 6rem;
+      }
+
+      @media (min-width: 1000px) {
+        padding-top: 3rem;
+        font-size: 8rem;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 2rem;
+        left: 6rem;
+        width: 10%;
+        height: 35%;
+        background-color: $primaryColor;
+        clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        z-index: -1;
+
+        @media (min-width: 768px) {
+          width: 25%;
+        }
+
+        @media (min-width: 1000px) {
+          top: 4rem;
+          width: 15%;
+        }
+      }
+    }
+  }
+}
