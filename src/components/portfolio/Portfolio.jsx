@@ -36,7 +36,7 @@ const Portfolio = () => {
     },
     {
       src: img2,
-      width: 1,
+      width: 2,
       height: 1,
     },
     {
@@ -46,8 +46,8 @@ const Portfolio = () => {
     },
     {
       src: img4,
-      width: 1,
-      height: 1,
+      width: 3,
+      height: 4,
     },
     {
       src: img5,
@@ -101,8 +101,8 @@ const Portfolio = () => {
     },
     {
       src: img15,
-      width: 3,
-      height: 4,
+      width: 4,
+      height: 3,
     },
     {
       src: img16,
@@ -111,8 +111,8 @@ const Portfolio = () => {
     },
     {
       src: img17,
-      width: 1,
-      height: 1,
+      width: 3,
+      height: 4,
     },
     {
       src: img18,
@@ -121,8 +121,8 @@ const Portfolio = () => {
     },
     {
       src: img19,
-      width: 3,
-      height: 4,
+      width: 4,
+      height: 3,
     },
     {
       src: img20,

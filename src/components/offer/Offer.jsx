@@ -39,11 +39,11 @@ const Offer = () => {
               </li>
               <li>
                 <DoneIcon className="done" />
-                <span>malowanie wnętrz</span>
+                <span>malowanie na ścianach</span>
               </li>
               <li>
                 <DoneIcon className="done" />
-                <span>coś tam innnego</span>
+                <span>farby akrylowe i olejne</span>
               </li>
             </ul>
           </div>
@@ -55,15 +55,15 @@ const Offer = () => {
             <ul>
               <li>
                 <DoneIcon className="done" />
-                <span>projektowanie maszyn</span>
+                <span>projektowanie CAD</span>
+              </li>
+              <li>
+                <DoneIcon className="done" />
+                <span>wizualizacja 3D</span>
               </li>
               <li>
                 <DoneIcon className="done" />
                 <span>indywidualne projekty</span>
-              </li>
-              <li>
-                <DoneIcon className="done" />
-                <span>coś tam innego</span>
               </li>
             </ul>
           </div>
